@@ -135,7 +135,7 @@ export default function BookServicePage() {
                                 className="h-5 w-5 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500"
                             />
                             <label htmlFor="subscription" className="ml-3 block text-sm text-gray-900">
-                                <span className="font-semibold">Sign up for Annual Subscription (1200 RS/year)</span>
+                                <span className="font-semibold">Sign up for Annual Subscription (12000 RS/year)</span>
                                 <span className="block text-xs text-gray-500">Get priority service and exclusive discounts!</span>
                             </label>
                         </div>
