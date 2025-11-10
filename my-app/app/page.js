@@ -125,7 +125,7 @@ const Chatbot = () => {
 
     return (
         <>
-            <div className={`fixed bottom-24 right-4 sm:right-6 w-[calc(100%-2rem)] sm:w-80 h-[28rem] bg-white rounded-xl shadow-2xl flex flex-col transition-all duration-300 origin-bottom-right ${isOpen ? 'scale-100 opacity-100' : 'scale-0 opacity-0'}`}>
+            <div className={`z-99 fixed bottom-24 right-4 sm:right-6 w-[calc(100%-2rem)] sm:w-80 h-[28rem] bg-white rounded-xl shadow-2xl flex flex-col transition-all duration-300 origin-bottom-right ${isOpen ? 'scale-100 opacity-100' : 'scale-0 opacity-0'}`}>
                 <div className="bg-indigo-600 text-white p-4 rounded-t-xl flex justify-between items-center">
                     <h3 className="font-bold text-lg">Solar Assistant</h3>
                     <button onClick={() => setIsOpen(false)} className="text-indigo-200 hover:text-white"><X size={20} /></button>
@@ -138,11 +138,25 @@ const Chatbot = () => {
                     ))}
                     <div ref={chatEndRef} />
                 </div>
-                <div className="p-2 border-t border-slate-200">
-                    {options.map((opt, index) => (
-                        <button key={index} onClick={() => handleOptionClick(opt)} className="w-full text-left p-2.5 mb-1 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 text-slate-700 transition-colors text-sm">{opt}</button>
-                    ))}
-                </div>
+              <div className="p-2 border-t border-slate-200">
+  {options.map((opt, index) => (
+    <div key={index} className="mb-1 flex items-center gap-2">
+      <button
+        className="flex-1 text-left p-2.5 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 text-slate-700 transition-colors text-sm"
+      >
+        {opt}
+      </button>
+
+      <button
+        onClick={() => handleOptionClick(opt)}
+        className="px-3 py-2 bg-blue-600 text-white text-sm rounded-md hover:bg-blue-700"
+      >
+        Send
+      </button>
+    </div>
+  ))}
+</div>
+
             </div>
             <button onClick={() => setIsOpen(!isOpen)} className="fixed bottom-6 right-6 bg-indigo-600 text-white rounded-full h-14 w-14 flex items-center justify-center shadow-lg transform hover:scale-110 transition-transform">
                 {isOpen ? <X className="h-7 w-7" /> : <MessageSquare className="h-7 w-7" />}
