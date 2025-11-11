@@ -167,7 +167,7 @@ export default function BookServicePage() {
                             <>
                                 <h3 className="text-2xl font-bold mb-4 text-center">Confirm Your Payment</h3>
                                 <p className="text-center text-gray-600 mb-4">
-                                    Please send the payment to <strong className="text-black">0313-4190776</strong> and enter the Transaction ID (TID/TRX ID) you receive via SMS.
+                                    Please send the payment to <strong className="text-black">0311-1155500</strong> and enter the Transaction ID (TID/TRX ID) you receive via SMS.
                                 </p>
                                 <form onSubmit={handleTidSubmit}>
                                     <div className="mb-4">
