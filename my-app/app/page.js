@@ -412,8 +412,8 @@ export default function HomePage() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
               <ul className="space-y-2 text-slate-400">
-                <li>123 Solar Avenue, Paris</li>
-                <li>contact@solarrevive.fr</li>
+                <li>123 PIA Avenue,Lahore </li>
+                <li>contact SolarRevive@gmail.com </li>
               </ul>
             </div>
             <div>
