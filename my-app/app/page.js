@@ -312,11 +312,11 @@ export default function HomePage() {
                 </div>
                 <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto fade-in" style={{ animationDelay: '0.2s' }}>
                     <div>
-                        <img src="/team-1.jpg" alt="CEO Imran Riaz" className="rounded-lg shadow-2xl w-full" />
+                        <img src="/team-1.jpg" alt="CEO Usman Zaib" className="rounded-lg shadow-2xl w-full" />
                     </div>
                     <div className="text-slate-600">
                         <p className="text-lg leading-relaxed">
-                            Mr. Imran Riaz, the visionary behind Solar Revive, leads with passion and dedication to building a green-powered world. With a mission to make solar energy accessible and affordable, he&apos;s transforming how Pakistan powers its homes and industries.
+                            Mr. Usman Zaib, the visionary behind Solar Revive, leads with passion and dedication to building a green-powered world. With a mission to make solar energy accessible and affordable, he&apos;s transforming how Pakistan powers its homes and industries.
                         </p>
                     </div>
                 </div>
@@ -327,20 +327,20 @@ export default function HomePage() {
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
                     <div className="text-center fade-in" style={{ animationDelay: '0.3s' }}>
-                        <img src="/t4.jpg" alt="Technician Usama Rasheed" className="rounded-lg shadow-lg w-full h-48 object-cover mb-4 transform hover:scale-105 transition-transform duration-300" />
-                        <h5 className="font-semibold text-slate-700">Usama Rasheed</h5>
+                        <img src="/t4.jpg" alt="Technician Ali Mehmood" className="rounded-lg shadow-lg w-full h-48 object-cover mb-4 transform hover:scale-105 transition-transform duration-300" />
+                        <h5 className="font-semibold text-slate-700">Ali Mehmood</h5>
                     </div>
                     <div className="text-center fade-in" style={{ animationDelay: '0.5s' }}>
-                        <img src="/t5.jpg" alt="Technician Tayyab Nawaz" className="rounded-lg shadow-lg w-full h-48 object-cover mb-4 transform hover:scale-105 transition-transform duration-300" />
-                        <h5 className="font-semibold text-slate-700">Tayyab Nawaz</h5>
+                        <img src="/t5.jpg" alt="Technician Haseeb Cheema" className="rounded-lg shadow-lg w-full h-48 object-cover mb-4 transform hover:scale-105 transition-transform duration-300" />
+                        <h5 className="font-semibold text-slate-700">Haseeb Cheema</h5>
                     </div>
                     <div className="text-center fade-in" style={{ animationDelay: '0.7s' }}>
                         <img src="/t6.jpg" alt="Technician Abdullah Shafiq" className="rounded-lg shadow-lg w-full h-48 object-cover mb-4 transform hover:scale-105 transition-transform duration-300" />
                         <h5 className="font-semibold text-slate-700">Abdullah Shafiq</h5>
                     </div>
                     <div className="text-center fade-in" style={{ animationDelay: '0.9s' }}>
-                        <img src="/t7.jpg" alt="Technician Aleem" className="rounded-lg shadow-lg w-full h-48 object-cover mb-4 transform hover:scale-105 transition-transform duration-300" />
-                        <h5 className="font-semibold text-slate-700">Aleem</h5>
+                        <img src="/t7.jpg" alt="Technician Asif Khan" className="rounded-lg shadow-lg w-full h-48 object-cover mb-4 transform hover:scale-105 transition-transform duration-300" />
+                        <h5 className="font-semibold text-slate-700">Asif Khan</h5>
                     </div>
                 </div>
             </div>
