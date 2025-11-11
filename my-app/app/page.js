@@ -312,7 +312,7 @@ export default function HomePage() {
                 </div>
                 <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto fade-in" style={{ animationDelay: '0.2s' }}>
                     <div>
-                        <img src="/W.jpeg" alt="CEO Usman Zaib" className="rounded-lg shadow-2xl w-full" />
+                        <img src="/w.jpeg" alt="CEO Usman Zaib" className="rounded-lg shadow-2xl w-full" />
                     </div>
                     <div className="text-slate-600">
                         <p className="text-lg leading-relaxed">
